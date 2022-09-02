@@ -30,7 +30,9 @@ function generateAPI(i) {
     container.innerHTML += `
 <div class="box">
 <h1>${info[0][i]['name']}&nbsp&nbsp#${info[0][i]['id']}</h1>
-<span><b>${info[0][i]['description']}</b></span>
+<span><b>${info[0][i]['description']}</b></span><br>
+<br>
+<span><b>Ingredients :</b></span>
 <p>${info[0][i]['ingredients']}</p>
 </div>
 `;
